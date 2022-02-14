@@ -1,0 +1,21 @@
+<html> 
+  <head>
+	  <link rel="stylesheet" href="style.css">
+	  <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@200&family=Gideon+Roman&family=Inconsolata:wght@200&family=Indie+Flower&family=Karla:wght@300&family=Montserrat:wght@100;300&family=Nunito:wght@300&family=Raleway:wght@200&family=Roboto+Mono:wght@200&family=Source+Sans+Pro:wght@200&display=swap" rel="stylesheet">
+  </head>
+  <body>
+	  <video id="play" width="0" height="600" controls>
+		  <source src="WhatsApp%20Video%202022-02-14%20at%2022.49.42.mp4" type="video/mp4">
+	  </video>
+    <h1 id="nam" onclick="change()" >Click this</h1>
+	  <script>
+		  function change() {
+			  document.getElementById("nam").innerHTML = "HAPPY BIRTH DAY MOM";
+			  document.getElementById("play").play();
+			  document.getElementById("play").width = 600;
+			  document.getElementById("play").height = 600;
+			  document.getElementById("image").src = "https://m.media-amazon.com/images/I/61v51XN-gRL._AC_SL1000_.jpg";
+		  }	  
+	  </script>
+  </body>
+</html>
